@@ -1,0 +1,20 @@
+{
+  "name": "webpack-example",
+  "version": "1.0.0",
+  "description": "example webpack",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "webpack -w"
+  },
+  "author": "David Consa",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.3.3",
+    "css-loader": "^2.1.1",
+    "jquery": "^3.3.1",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "dependencies": {}
+}

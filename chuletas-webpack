@@ -1,0 +1,52 @@
+-- Webpack nace para ser el empaquetador de react de Facebook
+
+
+4 Conceptos:
+- Entry
+- Outputs
+- loader (Cargadores)
+- Plugins
+
+
+
+--Iniciar un proyecto
+npm init -y
+
+--instalar dependencias
+
+npm i -D webpack webpack-dev-server babel-loader babel-cli babel-preset-es2015
+
+
+###https://docs.npmjs.com/cli/install
+#Comands Node
+=> npm install 
+    - in global mode : -g or --global   
+    - will install all modules as dependencies in package.json
+    - will the --production, npm will not intalls modules listed in devDependencies
+
+=>  npm install save any specified packages into dependencies:
+    + -P, --save-prod: Package will appear in your "dependencies".
+    
+    + -D, --save-dev: Package will appear in your "devDependencies"
+    + -O, --save-optional: Package will appear in your "optionalDependencies"
+    
+
+###
+WebPack config json
+- webpack -w o webpack --wacht   : Esto te permite transpilar automaticamente los cambios.
+
+
+#loader : Ejecutar codigo CSS
+    - npm install style-loader css-loader -D
+    - npm i -D style-loader css-loader
+
+
+
+#Curso de Webpack
+
+Instalar NPM  y webpack
+=> npm install --global webpack webpack-cli
+
+=> npm init
+=> npm i -D webpack webpack-cli
+=> npm run [build]
